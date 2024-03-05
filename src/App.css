@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+.container{
+  display: flex;
+}
+.main{
+  width: 100%;
+  padding: 20px;
+}
+.sidebar{
+  background: #f9ebda;
+  color: black;
+  height: 100vh;
+  width: 200px;
+  transition: all 0.5s;
+}
+.top_section{
+  display: flex;
+  align-items: center;
+  padding: 20px 15px ;
+}
+.logo{
+  width: 40%;
+  border-radius: 20%;
+}
+.bars{
+  display: flex;
+  font-size: 25px;
+  margin-left: 50px;
+}
+.link{
+  display: flex;
+  color: black;
+  padding: 10px 15px;
+  gap: 15px;
+  transition: all 0.5s;
+}
+
+.link:hover{
+  background: orange;
+  color: white;
+  transition: all 0.5s;
+}
+
+.active{
+  background: orange;
+  color: white;
+}
+
+.icon, .link_text{
+  font-size: 20px;
+}
